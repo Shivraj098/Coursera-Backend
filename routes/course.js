@@ -12,6 +12,4 @@ courseRouter.get("/preview",function(req,res){
         message: "All the courses that are available with preview"
     })
 })
-module.exports = {
-    courseRouter : courseRouter
-}
+module.exports = courseRouter
